@@ -1,0 +1,62 @@
+﻿<%@ master language="VB" inherits="admin_AdminMaster, App_Web_khog5xzl" %>
+<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="asp" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+<link href="../styles/reset.css" rel="stylesheet" type="text/css" />
+<link href="../styles/shoholaadmin.css" rel="stylesheet" type="text/css" /> 
+<asp:ContentPlaceHolder id="head" runat="server">
+
+ </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+<div id="contentWrapper">
+  <div id="header">
+    <div id="logo"> <img src="images/adminlogo.png" class="floatleft" /> <span class="headerTitle">Administration Tool</span> </div>
+    <!--END logo-->
+    <div id="login">
+          <asp:Button ID="btnLogout" runat="server"  CausesValidation="False" 
+              Text="Logout" style="height: 26px" />
+             <br />
+             <a href="changePw.aspx">Change Password</a>
+    </div>
+    <!--END login-->
+  </div>
+  <!--END header-->
+  <div style="clear:both"></div>
+  <div id="menuWrapper">
+  
+  <div class="menu">
+      <ul>
+        <li><a href="news">News/Events</a></li>
+         <li><a href="applications">Applications</a></li>
+         <li><a href="alumni">Alumni</a></li>
+         <li><a href="messages">Messages</a></li>
+        <li><a href="board">Board</a></li>
+		<li><a href="users">Users</a></li>
+        <li><a href="alias">Email System</a></li>
+      </ul>
+
+  </div> <!--END menu-->
+ </div> <!--END menu wrapper-->
+ <div style="clear:both"></div>
+  <div id="content">
+            <asp:ScriptManager ID="ScriptManager1" runat="server">
+            </asp:ScriptManager>
+    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">     
+        </asp:ContentPlaceHolder>
+         <asp:Label ID="adminID" runat="server" Visible="False"></asp:Label>
+       <asp:Label ID="adminUser" runat="server" Visible="False"></asp:Label>
+  </div>
+  <!--END content-->
+</div>
+<!--END contentWrapper-->
+<div id="footerWrapper">&copy; 2011 Shohola Scholarship. All Rights Reserved.</div>
+<!--end footer wrapper-->
+</form>
+</body>
+</html>

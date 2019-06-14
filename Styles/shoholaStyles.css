@@ -1,0 +1,537 @@
+﻿/*
+CSS for http://shoholascholarship.org/
+Designed by: M2 Design Group, llc
+www.M2DesignGroup.com
+Copyright 2011 Shohola Scholarship
+
+DESIGN COLORS:
+GREEN TEXT = #365552
+GREEN BG = #00522d
+GOLD TEXT = #FFE402
+
+
+*/
+
+/*-----------------DEFAULT STYLES ----------------- */
+body
+{
+    border-width: 0px;
+    padding: 0px;
+    margin: 0px;
+    background-image: url(../images/bggrad.jpg);
+    background-repeat: repeat-x;
+    background-color: #9cd7df;
+    background-position: center top;
+    font-family: Georgia, "Times New Roman" , Times, serif;
+}
+
+#bgWrapper
+{
+	background-image: url(../images/bgMain.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+
+
+img {border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    } 
+
+
+p, .p {
+	font-size: 14px;
+	line-height: 24px;
+	color:#666
+}
+
+p a:link, a:visited, a:active  {color: #365552;text-decoration: underline;}
+p a:hover {color: #0F6; text-decoration: underline;}
+
+.newsWhiteText {
+	font-size: 14px;
+	line-height: 24px;
+	color:white;
+}
+
+
+
+
+h1, h2, h3, h4, h5, h6
+{
+	font-weight:bold;
+	color: #365552;
+}
+
+
+h1
+{
+    font-size: 26px;
+    line-height: 32px;
+    font-variant: small-caps;
+}
+h2{font-size: 20px;line-height: 28px; font-variant: small-caps;}
+
+
+.fullDivMarg ul{
+margin-bottom:10px;
+margin-left:25px;
+} 
+
+.fullDivMarg li
+{
+    list-style-type: decimal;
+    list-style-position: outside;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666;
+    margin-bottom:20px;
+} 
+
+.table {
+	font-size: 12px;
+	line-height: 22px;
+	color:#666
+}
+
+
+/*-----------------LAYOUTS----------------- */
+
+#siteWrapper
+{
+	width: 842px;
+	background-color: white;
+	margin:auto;
+
+}
+
+.fullDivMarg
+{
+ width: 792px;
+ margin-left:25px;
+ margin-right:25px;
+ margin-top:12px;
+}
+
+
+
+#topBar
+{
+	height: 88px;
+	width: 842px;
+	background-image: url(../images/header.png);
+	background-repeat:no-repeat;
+	margin:auto;
+}
+
+
+
+
+#donateButton
+{
+	margin-top:26px;
+	width: 130px;
+	height: 44px;
+	margin-right: 20px;
+	float:right
+}
+
+
+
+
+
+#bottomWrapper
+{
+	width: 100%;
+		
+}
+
+
+#bottomSliver
+{
+	width: 842px;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	height: 13px;
+	background-image: url(../images/sliver.png);
+	background-repeat: no-repeat;	
+
+}
+
+#bottomTextLeft
+{
+	width: 450px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+}
+
+#bottomTextRight
+{
+	width: 300px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	text-align: right;
+}
+
+
+#bottomTextRight a {text-decoration: underline;}
+#bottomTextRight a:hover {color: #F60;}
+#bottomTextRight a:active {color: #900;}
+
+
+/*-----------------HOMEPAGE STYLES ----------------- */
+
+#deadlineDiv
+{
+	width: 100%;
+	text-align: center;	
+}
+
+
+.deadlineLeft
+{
+	width: 185px;
+	height:98px;
+	float:left;
+	margin-right:5px;
+	background-image: url(../images/bgDeadlineLeft.png);
+	background-repeat: no-repeat;	
+}
+
+.deadlineRight
+{
+	width: 185px;
+	height:98px;
+    float:right;
+	margin-right:15px;
+    background-image: url(../images/bgDeadlineRight.png);
+	background-repeat: no-repeat;	
+	
+}
+
+#leftCol
+{
+	width: 393px;
+	margin-top: 12px;
+	margin-left: 25px;
+	margin-right: 14px;
+	float:left
+}
+
+#rightCol
+{
+	margin-top: 12px;
+	width: 395px;
+	float:right;
+
+}
+
+#rightColMarg
+{
+	margin-top: 12px;
+	width: 370px;
+	float:right;
+	margin-right: 25px;
+
+}
+
+#newsDiv
+{
+    width: 395px;
+    height: 241px;
+    background-image: url('../images/bgNews.png');
+    background-repeat: no-repeat;
+    color:White;
+}
+
+#newsDiv a {text-decoration: underline; color:white}
+#newsDiv a:hover {color: #FFE402;}
+
+
+.newsDivInside
+{
+    width: 375px;
+    padding: 20px;
+}
+
+
+.newsWhiteText {
+	font-size: 14px;
+	line-height: 24px;
+	color:white;
+}
+
+#newsdatehp
+{
+    padding: 4px;
+    border: thin solid #FFE402;
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#newsdatediv
+{
+    padding: 10px;
+    border: thin solid #00522d;
+    width: 70px;
+    height: 80px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #FCFCFC;
+    float: none;
+    margin-right:20px;
+}
+
+#connectionBox
+{
+    border: 1px solid #CCCCCC;
+    padding: 5px;
+    background-color: #FFFFCC;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+/*-----------------TEXT STYLES ----------------- */
+
+
+.watermark
+{
+    border: thin inset #E1E1E1;
+    font-size: 12px;
+    color: #808080;
+    padding: 2px;
+}
+
+
+.val
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #FF0000;
+}
+
+
+.dateboxMonth
+{
+    font-size: 24px;
+    line-height: 30px;
+    color: #365552;
+}
+
+.dateboxNumber
+{
+    font-weight: bold;
+    font-size: 30px;
+    color: #365552;
+}
+
+.dateboxYear
+{
+    font-weight: normal;
+    font-size: 12px;
+    color: #365552;
+}
+
+.dateboxMonthhp
+{
+  
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFE402;
+}
+
+.dateboxNumberhp
+{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFE402;
+
+}
+
+/*-----------------MAIN MENU ----------------- */
+
+
+.menu
+{
+    width: 100%;
+    height: 44px;
+    background-image: url(../images/navBg.png);
+    background-repeat: repeat;
+    font-size: 14px;
+}
+	
+	
+.menu li{
+		float:left;
+		/*Spacing between menu boxes */
+		padding:4px 10px 0px 10px;
+		list-style:none;
+		display:inline;
+		margin:auto;
+}
+		
+.menu li a
+{
+    /*Color of Normal Text */
+    color: #325D86;
+    display: block;
+    font-weight: normal;
+    line-height: 35px;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+		
+		
+.menu li a:hover, .menu ul li:hover a{
+	/*Color of Text When Highlighted*/
+    color: white;
+	text-decoration:none;
+	background-color: #1B655B;
+			}
+			
+.menu li ul{
+	  /*BG of Sub Item*/
+		background:#efefef;
+		display:none;
+		height:auto;
+		position:absolute;
+		width:225px;
+		z-index:200;
+		}
+		
+.menu li:hover ul{
+		display:block;
+		}
+		
+.menu li li {
+		display:block;
+		float:none;
+		margin:0px;
+		padding:0px;
+		width:225px;
+		}
+		
+.menu li:hover li a{
+		background:none;
+		color:#666;
+		}
+		
+.menu li ul a{
+		display:block;
+		height:35px;
+		font-size:12px;
+		font-style:normal;
+		text-align:left;
+		}
+		
+	
+.menu li ul a:hover, .menu li ul li:hover a{
+	        /*BG Highlight of Sub Item */
+			background:#ffe402;
+			
+			/*Color of Highlighed Sub Menu Text */
+			color:#365552;
+			text-decoration:none;
+			}
+			
+			
+.menu p{
+		clear:left;	
+		}
+/*-----------------HOMEPAGE----------------- */
+
+.ajax__myTab .ajax__tab_body
+{
+    background-image: url('../images/tabBoxbg.png');
+    background-repeat: repeat;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+.tabTable
+{
+    width: 890px;
+}
+
+.tabTableLeft
+{
+    width: 570px;
+    vertical-align: top;
+}
+
+.tabTableCenter
+{
+    width: 40px;
+    vertical-align: top;
+}
+
+.tabTableRight
+{
+    width: 280px;
+    vertical-align: top;
+}
+
+
+.ajax__myTab .ajax__tab_header
+{
+    background-position: 50% bottom;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    background-image: url('../images/tabBoxTop.png');
+    background-repeat: no-repeat;
+}
+    
+.ajax__myTab .ajax__tab_outer
+{
+    background-position: top;
+    height: 46px;
+    margin-top: 10px;
+    width: 216px;
+    margin-right: 4px;
+    background-image: url('../images/tabOff.png');
+    background-repeat: no-repeat;
+    text-align: center;
+}
+    
+    .ajax__myTab .ajax__tab_inner {
+        padding-left: 3px;
+         margin-top:5px;
+}
+    
+    .ajax__myTab .ajax__tab_tab {
+        height: 13px;
+        padding: 4px;
+        margin: 0;
+     }
+    
+    .ajax__myTab .ajax__tab_hover .ajax__tab_outer 
+    {
+    background-image: url('../images/tabOn.png');
+    background-repeat: no-repeat;
+}
+   
+.ajax__myTab .ajax__tab_active .ajax__tab_outer {
+        background-image: url('../images/tabOn.png');
+    background-repeat: no-repeat;
+}
+/*-----------------TEXT STYLES ----------------- */
+    

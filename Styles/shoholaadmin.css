@@ -1,0 +1,276 @@
+/* 
+DESIGN COLORS:
+BLUE = #325D86
+Orange  = #F27122
+GREY TEXT = #666    */
+
+
+/* ---------- General Styling ----------   */
+body
+{
+   	font-family: Verdana, Arial, sans-serif;
+	font-size:12px;
+	line-height:20px;
+	color:#666;
+	background-color: #00522D;
+	margin-top: 0px;
+
+}
+
+#loginbox
+{
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 250px;
+    margin: auto;
+    text-align: center;
+    border: 8px solid #00522D;
+    margin: auto;
+    padding: 9px;
+}
+
+
+/* ---------- Links ---------- */
+a {color: #b50000; text-decoration: none;}
+a:hover {color: #000; text-decoration: none}
+.orange { color:#d96a02; }
+
+
+
+/* ---------- Header Styles ---------- */
+h1, h2, h3, h4
+{
+    color: #00522D;
+    font-weight: normal;
+    line-height: 1.1em;
+}
+h1{font-size: 24px;}
+h2{font-size: 18px; margin-top: 20px;}
+h3{font-size: 16px; margin-top: 20px;}
+h4{font-size: 16px;}
+h5 { font-size:14px; line-height:18px; }
+h6 { font-size:12px; line-height:16px; padding-bottom:5px; }
+
+/* ---------- General Content ---------- */
+#contentWrapper {width: 950px; margin: 20px auto 10px auto; padding:0; background:#ffffff;}
+#content {margin: 10px 0px; width:920px;  padding:15px; margin:0;}
+#leftColumn {width: 180px; float: left; display: inline; margin: 0px 30px 0px 0px;}
+#rightColumn {width: 720px; float: left; display: inline;}
+.left {float:left; display:inline}
+.right {float:right; display:inline}
+#header
+{
+    width: 920px;
+    padding: 15px;
+    margin: 0;
+    float: left;
+    background: #FFFFFF;
+    color: #00522d;
+}
+#header table {text-align:right;}
+#logo { width:500px; padding:0; margin:0; float:left;}
+#logo .floatleft {float:left; padding-right:10px;}
+
+#login { width:400px; padding:0; margin:0; float:right; text-align:right; color:#333333;}
+#login a:link { color:#333333; text-decoration:underline;}
+#login a:visited { color:#333333; text-decoration:underline; }
+#login a:hover { color:red; text-decoration:none; }
+#login a:active { color:#333333; text-decoration:underline;}
+
+.headerTitle
+{
+    color: #00522d;
+    font-weight: normal;
+    padding-top: 40px;
+    font-size: 24px;
+    float: left;
+}
+
+#loginbox
+{
+    background-color: #FFFFFF;
+
+    width: 300px;
+    height: 250px;
+    margin:auto;
+    text-align:center;
+    
+    border: 8px solid #CC0000;
+    margin: auto;
+    padding: 9px;
+}
+
+.good
+        {
+            padding: 5px;
+            margin: 0px;
+            border: 1px solid #33CC33;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            font-variant: normal;
+            color: #006600;
+            background-color: #CCFF99;
+            line-height: 40px;
+            vertical-align: middle;
+            text-align: left;
+            font-weight: bolder;
+        }
+        .bad {
+            padding: 5px;
+            margin: 0px;
+            border: 1px solid #FF0000;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            font-variant: normal;
+            color: #CC0000;
+            background-color: #FFCC99;
+            line-height: 40px;
+            vertical-align: middle;
+            text-align: left;
+            font-weight: bolder;
+        }
+
+
+.tableText
+{
+  	font-family: Verdana, Arial, sans-serif;
+	font-size:10px;
+	line-height:18px;
+	color:#666;  
+}
+
+.watermark
+{
+  border: thin inset #E1E1E1;
+  font-size: 14px;
+  color: #666666;
+  padding: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+.val
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #FF0000;
+}
+
+
+
+
+/*-----------DROP DOWN NAVIGATION------*/
+
+#menuWrapper
+{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    background: #FFE402;
+    
+}
+
+.menu
+{
+    font-size: 12px;
+    font-weight: bold;
+    width: 100%;
+    
+    
+}
+	
+	
+.menu li
+{
+    float: left; /*Spacing between menu boxes */
+    padding: 2px 5px 0px 5px;
+    list-style: none;
+    display: inline;
+    margin: auto;
+    color: #00522d;
+    background-color: #FFE402;
+}
+		
+.menu li a
+{
+    font-family: Arial, Helvetica, sans-serif; /*Color of Normal Text */
+    color: #00522d;
+    display: block;
+    font-weight: normal;
+    line-height: 35px;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+		
+		
+.menu li a:hover, .menu ul li:hover a
+{
+    /*BG Highlight Color of Main Item*/
+    background-color: #00522d; /*Color of Text When Highlighted*/
+    color: #FFF;
+    text-decoration: none;
+}
+			
+.menu li ul{
+	  /*BG of Sub Item*/
+		background:#efefef;
+		display:none;
+		height:auto;
+		position:absolute;
+		width:225px;
+		z-index:200;
+	
+		
+		}
+		
+.menu li:hover ul{
+		display:block;
+
+		}
+		
+.menu li li {
+		display:block;
+		float:none;
+		margin:0px;
+		padding:0px;
+		width:225px;
+		
+		}
+		
+.menu li:hover li a
+{ /*Color of Text in Sub Items */
+    color: #FFFFFF;
+}
+		
+.menu li ul a{
+	
+		display:block;
+		height:35px;
+		font-size:12px;
+		font-style:normal;
+		text-align:left;
+		
+		}
+		
+.menu li ul a:hover, .menu li ul li:hover a
+{
+    /*BG Highlight of Sub Item */
+    background: #FF9900; /*Color of Highlighed Sub Menu Text */
+    color: #FFFFFF;
+    text-decoration: none;
+}
+			
+
+
+/* ---------- Login -----------*/
+
+
+/* ---------- Footer ---------- */
+#footerWrapper {width: 965px; margin: 20px auto; color: #fff; font-size: 11px; text-align:center;}
+
+.adminLabel { font-weight:bold; }
+
+.ValidationWrapper { background:#f8d0d0; border:1px solid #da5858; color:#da5858; padding:10px; margin:10px 0; width:95%;}
+
+.statusDiv {background: none repeat scroll 0 0 #FFFF66; font-weight: bold; text-align: center; margin:10px 0; padding:4px 0;}

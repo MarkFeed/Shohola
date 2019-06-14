@@ -1,0 +1,83 @@
+﻿<%@ master language="VB" autoeventwireup="false" inherits="Site, App_Web_ehc4z3wh" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+<title></title>
+<link href="styles/reset.css" rel="stylesheet" type="text/css" />
+<link href="styles/shoholaStyles.css" rel="stylesheet" type="text/css" />
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+  <form runat="server">
+
+   <div id="bgWrapper">
+<br /><br />
+<div id="topBar">
+<div id="donateButton">
+<a href="https://donatenow.networkforgood.org/shoholascholarship" target="_blank"><img src='<%= ResolveClientURL("~/images/btnDonate.png") %>' alt="Donate" /></a>
+</div>
+</div> <!--END topbar-->
+
+
+<div id="siteWrapper">  <!--start SITE CONTENT-->
+
+ <!--start NAV-->
+ <div class="menu">
+ 
+		<ul>
+			<li><a href="/">Home</a></li>
+            <li><a href="https://donatenow.networkforgood.org/shoholascholarship" target="_blank">Donate A Dream!</a></li>
+            <li><a href="/allNews">News/Events</a></li>
+            <li><a href="/alumni">Alumni</a></li>
+            <li><a href="/contact">Contact</a></li>
+            
+            <li><a href="/about">About Shohola Scholarship</a>
+                <ul>
+                <li><a href="/about">About The Scholarship</a></li>
+                <li><a href="http://www.shohola.com/" target="_blank">Camp Shohola's Website</a></li>
+                </ul>
+            </li>
+           
+            <li><a href="/apply">Apply</a></li>
+        </ul>
+ 
+</div><!--END NAV-->
+ 
+   
+    <asp:ContentPlaceHolder ID="mainContent" runat="server">
+    </asp:ContentPlaceHolder>
+
+
+    <div style="clear:both"></div>
+
+
+</div><!--end site wrapper-->
+
+
+<!--START FOOTER CONTENT-->
+
+<div id="bottomWrapper">
+<div id="bottomSliver">
+
+	<div id="bottomTextLeft">
+	<p style="font-size:10px">© 2011  Shohola Scholarship // All Rights Reserved.</p>
+	</div>
+      
+    <div id="bottomTextRight">
+	<p style="font-size:10px">Site by: <a href="http://www.m2designgroup.com">M2 Design Group</a></p>
+	</div>
+</div><!--end bottom sliver-->
+</div><!--end bottom wrapper-->
+<!--END FOOTER CONTENT-->
+
+
+
+ </div><!--end bg wrapper-->
+
+    </form>
+</body>
+</html>
